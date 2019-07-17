@@ -1,5 +1,10 @@
 class Person
   
-  def job=(occupation)
+  def job=(job)
     @job = job
+  end
+  
+  def job
+    @job
+  end
 end 
